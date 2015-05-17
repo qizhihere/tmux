@@ -1,0 +1,54 @@
+# Process monitoring
+window Proc
+
+A
+
+dir ~
+A run htop
+A foc
+
+
+# Network related
+window Net
+
+AC
+BC
+
+dir ~
+A run sudo systemctl start nginx php-fpm mysqld redis &
+B run sleep 2; sudo polipo socksParentProxy=localhost:1080
+C run sudo sslocal -c /etc/shadowsocks/config.json
+A foc
+A run clear
+
+
+# mysql+php+redis
+window mysql+php+redis
+
+AC
+BC
+
+dir /srv/http
+A run php -a
+B run sleep 5; redis-cli
+C run sleep 5; mysql -uroot -proot
+C foc
+C run system clear
+
+
+# common lisp interactive shell
+window lisp
+
+A
+
+A run clisp
+A foc
+
+
+# fish
+window fish
+
+A
+
+dir ~
+A foc
