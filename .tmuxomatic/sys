@@ -37,13 +37,25 @@ C run system clear
 
 
 # common lisp interactive shell
-window lisp
+window clasp
+
+AB
+AC
+
+A run clisp
+B run xsp4 --root /srv/http/aspnet
+C run mono /home/qizhi/.emacs.d/utils/OmniSharp/bin/Debug/OmniSharp.exe
+A foc
+
+
+# emacs
+window emacs
 
 A
 
-A run clisp
+dir ~
+A run pe
 A foc
-
 
 # fish
 window fish
