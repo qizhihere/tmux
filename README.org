@@ -7,7 +7,7 @@
   + tmuxomatic
 
 * Installation
-  Install tmux via your Package Manager, then install tmuxomatic via python pip
+  Install tmux via your Package Manager, then install tmuxomatic via python3 pip
 
   : sudo pip3 install tmuxomatic
 
