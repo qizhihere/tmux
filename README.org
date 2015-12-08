@@ -1,0 +1,38 @@
+* What is this?
+  My personal tmux and [[https://github.com/oxidane/tmuxomatic.git][tmuxomatic]] configurations.
+
+* Requirements
+
+  + tmux >= 1.9a
+  + tmuxomatic
+
+* Installation
+  Install tmux via your Package Manager, then install tmuxomatic via python pip
+
+  : sudo pip3 install tmuxomatic
+
+  Then clone this repo to your machine and apply configs
+
+  : git clone https://github.com/qizhihere/tmux.git ~/tmux
+  : ln -s ~/tmux/.tmux* ~/
+
+  Finally, start tmux and press ~C-q I~ to install required plugins.
+
+* Usage
+  Shortcut keys
+
+  | key        | description                   |
+  |------------+-------------------------------|
+  | C-q        | prefix key                    |
+  | prefix /   | regexp search                 |
+  | prefix C-s | save tmux session             |
+  | prefix C-r | restore tmux session          |
+  | prefix y   | copy text to system clipboard |
+  | prefix Y   | copy current directory to     |
+  |            | system clipboard              |
+
+
+* Screenshots
+  #+caption: screenshot
+  #+name: figure-8d40b4f7
+  [[screenshot.png]]

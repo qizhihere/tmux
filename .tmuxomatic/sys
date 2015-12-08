@@ -15,46 +15,9 @@ AC
 BC
 
 dir ~
-A run sudo systemctl start nginx php-fpm mysqld redis &
+#A run xyw
 B run sleep 2; sudo polipo socksParentProxy=localhost:1080
-C run sudo sslocal -c /etc/shadowsocks/config.json
-A foc
-A run clear
-
-
-# mysql+php+redis
-window mysql+php+redis
-
-AC
-BC
-
-dir /srv/http
-A run php -a
-B run sleep 5; redis-cli
-C run sleep 5; mysql -uroot -proot
-C foc
-C run system clear
-
-
-# common lisp interactive shell
-window clasp
-
-AB
-AC
-
-A run clisp
-B run xsp4 --root /srv/http/aspnet
-C run mono /home/qizhi/.emacs.d/utils/OmniSharp/bin/Debug/OmniSharp.exe
-A foc
-
-
-# emacs
-window emacs
-
-A
-
-dir ~
-A run pe
+C run cd ~/Softs/ss; dco up
 A foc
 
 # fish
@@ -64,3 +27,4 @@ A
 
 dir ~
 A foc
+A run ssh-add ~/.ssh/id_rsa
