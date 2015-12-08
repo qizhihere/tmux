@@ -16,7 +16,7 @@
   : git clone https://github.com/qizhihere/tmux.git ~/tmux
   : ln -s ~/tmux/.tmux* ~/
 
-  Finally, start tmux and press ~C-q I~ to install required plugins.
+  Finally, start ~tmux~ and press ~C-q I~ to install required plugins.
 
 * Usage
 
