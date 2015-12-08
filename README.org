@@ -24,12 +24,15 @@
   | key        | description                   |
   |------------+-------------------------------|
   | C-q        | prefix key                    |
+  | prefix R   | reload tmux configuration     |
   | prefix /   | regexp search                 |
   | prefix C-s | save tmux session             |
   | prefix C-r | restore tmux session          |
   | prefix y   | copy text to system clipboard |
   | prefix Y   | copy current directory to     |
   |            | system clipboard              |
+  | prefix I   | install tmux plugins          |
+  | prefix U   | upgrade tmux plugins          |
 
 
 * Screenshots
