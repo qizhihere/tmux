@@ -34,8 +34,8 @@
   | prefix I   | install tmux plugins          |
   | prefix U   | upgrade tmux plugins          |
 
-
 * Screenshots
+  [[https://github.com/thestinger/termite.git][termite]] + [[http://fishshell.com/][fish shell]] + tmux + tmuxomatic
   #+caption: screenshot
   #+name: figure-8d40b4f7
   [[screenshot.png]]
