@@ -30,7 +30,7 @@
    | prefix R                  | reload tmux configuration  |
    | prefix c                  | create a tmux window       |
    | prefix %                  | vertically split window    |
-   | prefix "                  | horizontal split window    |
+   | prefix "                  | horizontally split window  |
    | prefix ,                  | rename current window      |
    | prefix x                  | delete a tmux window/pane  |
    | prefix p/n                | prev/next window           |
