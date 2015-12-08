@@ -19,20 +19,43 @@
   Finally, start tmux and press ~C-q I~ to install required plugins.
 
 * Usage
-  Shortcut keys
 
-  | key        | description                   |
-  |------------+-------------------------------|
-  | C-q        | prefix key                    |
-  | prefix R   | reload tmux configuration     |
-  | prefix /   | regexp search                 |
-  | prefix C-s | save tmux session             |
-  | prefix C-r | restore tmux session          |
-  | prefix y   | copy text to system clipboard |
-  | prefix Y   | copy current directory to     |
-  |            | system clipboard              |
-  | prefix I   | install tmux plugins          |
-  | prefix U   | upgrade tmux plugins          |
+** Shortcut keys
+
+   basic
+
+   | key                       | description                |
+   |---------------------------+----------------------------|
+   | C-q                       | prefix key                 |
+   | prefix R                  | reload tmux configuration  |
+   | prefix c                  | create a tmux window       |
+   | prefix %                  | vertically split window    |
+   | prefix "                  | horizontal split window    |
+   | prefix ,                  | rename current window      |
+   | prefix x                  | delete a tmux window/pane  |
+   | prefix p/n                | prev/next window           |
+   | prefix w                  | list windows               |
+   | prefix up/down/left/right | move between panes         |
+   | prefix [                  | copy mode(vi key bindings) |
+   | prefix ]                  | paste text                 |
+   | prefix d                  | detach client              |
+   | prefix ?                  | view help                  |
+
+   functions extended by plugins
+
+   | prefix /   | regexp search                 |
+   | prefix C-s | save tmux session             |
+   | prefix C-r | restore tmux session          |
+   | prefix y   | copy text to system clipboard |
+   | prefix Y   | copy current directory to     |
+   |            | system clipboard              |
+
+   plugin management
+
+   | key        | description                   |
+   |------------+-------------------------------|
+   | prefix I   | install tmux plugins          |
+   | prefix U   | upgrade tmux plugins          |
 
 * Screenshots
   [[https://github.com/thestinger/termite.git][termite]] + [[http://fishshell.com/][fish shell]] + tmux + tmuxomatic
