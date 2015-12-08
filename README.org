@@ -22,7 +22,7 @@
 
 ** Shortcut keys
 
-   basic
+   basic:
 
    | key                       | description                |
    |---------------------------+----------------------------|
@@ -41,8 +41,10 @@
    | prefix d                  | detach client              |
    | prefix ?                  | view help                  |
 
-   functions extended by plugins
+   functions extended by plugins:
 
+   | key        | description                   |
+   |------------+-------------------------------|
    | prefix /   | regexp search                 |
    | prefix C-s | save tmux session             |
    | prefix C-r | restore tmux session          |
@@ -50,7 +52,7 @@
    | prefix Y   | copy current directory to     |
    |            | system clipboard              |
 
-   plugin management
+   plugin management:
 
    | key        | description                   |
    |------------+-------------------------------|
