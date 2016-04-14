@@ -4,20 +4,20 @@ window Proc
 A
 
 dir ~
-A run htop
 A foc
+A run htop
 
 
 # Network related
 window Net
 
-AC
-BC
+AB
+CD
 
 dir ~
-#A run xyw
-B run sleep 2; sudo polipo socksParentProxy=localhost:1080
-C run cd ~/Softs/ss; dco up
+B run dco -f ~/Softs/ss/local/docker-compose.yml up
+C run polipo
+D run dco -f ~/Softs/ss/redir/docker-compose.yml up
 A foc
 
 # fish
