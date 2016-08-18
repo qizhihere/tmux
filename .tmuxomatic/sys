@@ -15,9 +15,8 @@ AB
 CD
 
 dir ~
-B run dco -f ~/Softs/ss/local/docker-compose.yml up
-C run polipo
-D run dco -f ~/Softs/ss/redir/docker-compose.yml up
+B run dco -f ~/Softs/ss/local/docker-compose-bg.yml up
+D run dco -f ~/Softs/ss/redir/docker-compose-bg.yml up
 A foc
 
 # fish
