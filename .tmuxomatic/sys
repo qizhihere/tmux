@@ -15,12 +15,12 @@ AB
 CD
 
 dir ~
-B run dco -f ~/Softs/ss/local/docker-compose-bg.yml up
-D run dco -f ~/Softs/ss/redir/docker-compose-bg.yml up
+B run dco -f ~/Softs/ss/local/docker-compose-sgp.yml up
+D run dco -f ~/Softs/ss/redir/docker-compose-sgp.yml up
 A foc
 
-# fish
-window fish
+# Shell
+window shell
 
 A
 
