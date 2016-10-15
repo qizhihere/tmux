@@ -1,0 +1,20 @@
+# Process monitoring
+window Proc
+
+A
+
+dir ~
+A foc
+A run htop
+
+
+# Shell
+window shell
+
+A
+
+dir ~
+A foc
+A run sh -c "cd /mnt/d/Desktop/quickstarts/supervisord/; sudo supervisord -c supervisord.conf"
+A run clear
+A run ssh-add ~/.ssh/id_rsa
