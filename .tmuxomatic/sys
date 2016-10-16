@@ -5,7 +5,7 @@ A
 
 dir ~
 A foc
-A run htop
+A run sudo htop
 
 
 # Network related

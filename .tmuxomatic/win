@@ -5,7 +5,7 @@ A
 
 dir ~
 A foc
-A run htop
+A run sudo htop
 
 
 # Shell
@@ -15,6 +15,6 @@ A
 
 dir ~
 A foc
-A run sh -c "cd /mnt/d/Desktop/quickstarts/supervisord/; sudo supervisord -c supervisord.conf"
-A run clear
+A run ~/startup.sh
 A run ssh-add ~/.ssh/id_rsa
+A run clear
